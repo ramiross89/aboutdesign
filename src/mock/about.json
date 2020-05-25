@@ -1,0 +1,165 @@
+{
+    "title": "AboutDesign",
+    "body": "We’re a strategy-driven design studio specialized in connecting with users by tailoring beautiful and functional creative concepts. We use design as a means to build a brand ecosystem in which your clients are at its core.",
+    "cc": "2015 - 2020",
+    "country": "México",
+    "state": "Monterrey",
+    "street": "Jardín de San Jerónimo",
+    "homenum": 114,
+    "recidence": "San Jerónimo",
+    "zip": 64640,
+    "services": {
+        "title": "Approach & Services",
+        "body": "Creativity and innovation emerge from a deep understanding of your customers. Our solutions work because they accurately reflect the essence of the product and convey authentic emotions, which in turn generate appeal and loyalty to your brand.",
+        "features": [
+            {
+                "title": "Business Design",
+                "subtitle": "Defining the path",
+                "body": "It doesn’t matter how fast you go if you’re heading in the wrong direction. Our services start-off with an analysis that guides our steps towards the right way: the emotional memory of your customers.",
+                "list": [
+                    {
+                        "title": "Research & Insight"
+                    }, {
+                        "title": "Benchmark"
+                    }, {
+                        "title": "Business Strategy"
+                    }, {
+                        "title": "Business Model"
+                    }
+                ]
+            },
+            {
+                "title": "Brand Design",
+                "subtitle": "Building the essence",
+                "body": "People believe in authenticity and recognize it as soon as they see it. Building the essence of your brand is key to connecting with your audience.",
+                "list": [
+                    {
+                        "title": "Naming"
+                    }, {
+                        "title": "Tagline"
+                    }, {
+                        "title": "Brand Identity"
+                    }, {
+                        "title": "Concept Development"
+                    }, {
+                        "title": "Concept Development"
+                    }, {
+                        "title": "Brand Voice"
+                    }, {
+                        "title": "Identity Systems"
+                    }, {
+                        "title": "Brand Strategy"
+                    }, {
+                        "title": "Brand Implementation"
+                    }, {
+                        "title": "Brand Management"
+                    }
+                ]
+            },
+            {
+                "title": "Brand Ecosystem",
+                "subtitle": "Engage without invading",
+                "body": "We love interacting with our surroundings but dislike when our space is being invaded. The best route to reach your customers is to take your brand to the right environment in a natural way. We know that way.",
+                "list": [
+                    {
+                        "title": "llustration"
+                    }, {
+                        "title": "Packaging"
+                    }, {
+                        "title": "Web Development"
+                    }, {
+                        "title": "Retail Design"
+                    }, {
+                        "title": "Interior Design"
+                    }, {
+                        "title": "Motion Graphics"
+                    }, {
+                        "title": "Signage"
+                    }, {
+                        "title": "Editorial Design"
+                    }, {
+                        "title": "Advertising & Communication"
+                    }, {
+                        "title": "Art Direction"
+                    }, {
+                        "title": "Social Media Behavior"
+                    }
+                ]
+            }
+        ]
+    },
+    "features": [
+        {
+            "title": "Team 2015 - Present",
+            "list": [
+                {
+                    "title": "Laura Limas"
+                }, {
+                    "title": "Diego Sanchez"
+                }, {
+                    "title": "Andrea Villarreal"
+                }, {
+                    "title": "Maria Cristina Garcia"
+                }, {
+                    "title": "Lorena González"
+                }, {
+                    "title": "Marcela Fraustro"
+                }, {
+                    "title": "Lessly Carmona"
+                }, {
+                    "title": "Larissa Osorio"
+                }, {
+                    "title": "Alan Coria"
+                }, {
+                    "title": "Eduardo Coria"
+                }, {
+                    "title": "Paola Geraldine"
+                }
+            ]
+        },
+        {
+            "title": "Featured",
+            "list": [
+                {
+                    "title": "The Brand Identity"
+                }, {
+                    "title": "Architectural Logos - Counter Print (UK)"
+                }, {
+                    "title": "Visual Journal"
+                }, {
+                    "title": "Abstract Logos - Counter Print (UK)"
+                },{
+                    "title": "Revista Código No. 77 (MX)"
+                }, {
+                    "title": "Color Identity - SendPoints (CH)"
+                }
+            ]
+        }
+    ],
+    "contact": {
+        "title" : "Contact",
+        "phone": "+52 (1) 81-2261-5086",
+        "email": "hello@aboutdesign.mx"
+    },
+    "social": {
+        "title": "Follow us",
+        "list": [
+            {
+                "title": "Behance",
+                "href": "https://www.behance.net/About-Design"
+            }, {
+                "title": "Instagram",
+                "href": "http://instagram.com/_AboutDesign"
+            }, {
+                "title": "Facebook",
+                "href": "http://facebook.com/ByAboutDesign"
+            }, {
+                "title": "Twitter",
+                "href": "http://twitter.com/_AboutDesign"
+            }, {
+                "title": "Linkedin",
+                "href": "http://linkedin.com/company/aboutdesign"
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+@import '../functions/maps';
+@import '../functions/units';
+
+$colors-defaults: (
+    black: #000000,
+    white: #ffffff,
+);
+$colors: () !default;
+$colors: extend($colors-defaults, $colors);

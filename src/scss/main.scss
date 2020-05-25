@@ -1,0 +1,11 @@
+// base 
+@import 'base/base';
+
+// navbar
+@import '@/components/navbar/styles.scss';
+@import '@/components/carousel/styles.scss';
+@import '@/components/footer/styles.scss';
+
+//about
+@import '@/views/about/styles.scss';
+@import '@/views/work/styles.scss';

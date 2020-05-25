@@ -1,0 +1,85 @@
+{
+  "slides": [
+    {
+        "id": 1,
+        "image": "CINCECORE_WEB.jpg",
+        "title": "Cine Core",
+        "description": null,
+        "year": 2020,
+        "type": "Property Development",
+        "promoted": true
+    },
+    {
+        "id": 2,
+        "image": "ARADA_POSTER_WEB2.jpg",
+        "title": "Arada Projects",
+        "description": null,
+        "year": 2020,
+        "type": "Property Development",
+        "promoted": true
+    },
+    {
+        "id": 3,
+        "image": "BYLSA-BOXES_WEB.jpg",
+        "title": "Bylsa",
+        "description": null,
+        "year": 2020,
+        "type": "Property Development",
+        "promoted": true
+    },
+    {
+        "id": 4,
+        "image": "ENKASA_PREVIEW.jpg",
+        "title": "Enkasa",
+        "description": null,
+        "year": 2020,
+        "type": "Property Development",
+        "promoted": false
+    },
+    {
+        "id": 5,
+        "image": "MALOSMODALES_DOC1.jpg",
+        "title": "Malos Modales",
+        "description": null,
+        "year": 2020,
+        "type": "Property Development",
+        "promoted": false
+    },
+    {
+        "id": 6,
+        "image": "SHIFT_PREVIEW.jpg",
+        "title": "Shift",
+        "description": null,
+        "year": 2020,
+        "type": "Property Development",
+        "promoted": false
+    },
+    {
+        "id": 7,
+        "image": "MALOSMODALES_DOC4.jpg",
+        "title": "Shift",
+        "description": null,
+        "year": 2020,
+        "type": "Property Development",
+        "promoted": false
+    },
+    {
+        "id": 8,
+        "image": "Cafe.jpg",
+        "title": "Shift",
+        "description": null,
+        "year": 2020,
+        "type": "Property Development",
+        "promoted": false
+    },
+    {
+        "id": 9,
+        "image": "TOTE_BAG.jpg",
+        "title": "Landwaste",
+        "description": null,
+        "year": 2020,
+        "type": "Property Development",
+        "promoted": false
+    }
+  ]
+}

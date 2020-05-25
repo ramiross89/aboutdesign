@@ -1,0 +1,29 @@
+.carousel-item {
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+}
+
+.carousel-control-next, 
+.carousel-control-prev{
+    opacity: 0;
+    &:hover,
+    &:focus,
+    &:visited {
+        opacity: 0;
+    }
+}
+
+.carousel-caption {
+    right: auto;
+    left: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: right;
+    width: 100%;
+    h3 {
+        font-size: rem(20.8);
+        margin: 0;
+        line-height: rem(24.96);
+    }
+}

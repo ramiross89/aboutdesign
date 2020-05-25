@@ -1,0 +1,13 @@
+footer {
+    margin: rem(100) 0 rem(40);
+
+    .cc {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .location {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

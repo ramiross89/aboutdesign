@@ -1,0 +1,77 @@
+//
+//  Functions / Maps
+//
+
+/**
+ *  Get from Sass Map
+ *
+ *  Gets the key from a map. Recursively access maps
+ *  using dot notation ( 'alpha.bravo.charlie' ).
+ *
+	.foo {
+		color: get( brand-color );
+		background-color: get( 'first.second.color', $some-map );
+	}
+ *
+ * 	@param 	{ String } [ $key ] - The key of the desired value
+ * 	@param 	{ Map } [ $map=$frontier ] - The map to search
+ *
+ * 	@return {undefined} Returns the assoicated variable
+ *  --------------------------------------------------
+ */
+
+ @function get( $key, $map ) {
+    @if type-of( $key ) == string and (str-index($key, ".") or 0) > 0 {
+        $parent-key: str-slice($key, 1, str-index($key, ".") - 1);
+        $child-key: str-slice($key, str-index($key, ".") + 1);
+
+        @if type-of(map-get($map, $parent-key)) == map {
+            @return get($child-key, map-get($map, $parent-key));
+        }
+    }
+
+    @return map-get($map, $key);
+}
+
+/**
+ *  Extend Map with Deep Merge
+ *
+ * 	@param 	{ Map } $object - first map
+ * 	@param 	{ ArgList } $objects - other maps
+ * 	@param 	{ Bool } $deep - recursive mode
+ * 	@return { Map }
+ *  --------------------------------------------------
+ */
+
+@function extend( $object, $objects... ) {
+    $last: nth($objects, -1);
+    $deep: $last == true;
+    $max: if($deep, length($objects) - 1, length($objects));
+
+    // Loop through all maps in $objects...
+    @for $i from 1 through $max {
+        // Store current map
+        $current: nth($objects, $i);
+
+        // If not in deep mode, simply merge current map with object
+        @if not $deep {
+            $object: map-merge($object, $current);
+        }
+
+        @else {
+            // If in deep mode
+            // Loop through all tuples in current map
+            @each $key, $value in $current {
+                // If value is a nested map and same key from object is a nested map as well
+                @if type-of($value) == "map" and type-of(map-get($object, $key)) == "map" {
+                    // Recursive extend
+                    $value: extend(map-get($object, $key), $value, true);
+                }
+                // Merge current tuple with object
+                $object: map-merge($object, ($key: $value));
+            }
+        }
+    }
+
+    @return $object;
+}
