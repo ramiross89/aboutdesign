@@ -1,13 +1,37 @@
 {
-  "slides": [
+  "projects": [
     {
         "id": 1,
         "image": "CINCECORE_WEB.jpg",
         "title": "Cine Core",
-        "description": null,
+        "description": "Creativity and innovation emerge from a 2020 deep understanding of your customers. Our solutions work because they accurately reflect the essence of the product and convey authentic emotions, which in turn generate appeal and loyalty to your brand.",
         "year": 2020,
-        "type": "Property Development",
-        "promoted": true
+        "type": "Property & Development",
+        "promoted": true,
+        "url": "cine-core",
+        "collaborator": "Illustrations by kitty ramos",
+        "services": [
+            {
+                "name": "Brand identity"
+            },
+            {
+                "name": "Brand Strategy"
+            }
+        ],
+        "gallery": [
+            {
+                "image": "https://i.picsum.photos/id/237/900/600.jpg"
+            },
+            {
+                "image": "https://i.picsum.photos/id/200/900/600.jpg"
+            },
+            {
+                "image": "https://i.picsum.photos/id/137/900/600.jpg"
+            },
+            {
+                "image": "https://i.picsum.photos/id/27/900/600.jpg"
+            }
+        ]
     },
     {
         "id": 2,
@@ -15,8 +39,11 @@
         "title": "Arada Projects",
         "description": null,
         "year": 2020,
-        "type": "Property Development",
-        "promoted": true
+        "type": "Property & Development",
+        "promoted": true,
+        "url": "arada-projects",
+        "collaborator": null,
+        "services": null
     },
     {
         "id": 3,
@@ -24,8 +51,11 @@
         "title": "Bylsa",
         "description": null,
         "year": 2020,
-        "type": "Property Development",
-        "promoted": true
+        "type": "Property & Development",
+        "promoted": true,
+        "url": "bylsa",
+        "collaborator": null,
+        "services": null
     },
     {
         "id": 4,
@@ -33,8 +63,11 @@
         "title": "Enkasa",
         "description": null,
         "year": 2020,
-        "type": "Property Development",
-        "promoted": false
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "enkasa",
+        "collaborator": null,
+        "services": null
     },
     {
         "id": 5,
@@ -42,8 +75,11 @@
         "title": "Malos Modales",
         "description": null,
         "year": 2020,
-        "type": "Property Development",
-        "promoted": false
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "malos-modales",
+        "collaborator": null,
+        "services": null
     },
     {
         "id": 6,
@@ -51,17 +87,23 @@
         "title": "Shift",
         "description": null,
         "year": 2020,
-        "type": "Property Development",
-        "promoted": false
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "shift",
+        "collaborator": null,
+        "services": null
     },
     {
         "id": 7,
         "image": "MALOSMODALES_DOC4.jpg",
-        "title": "Shift",
+        "title": "Malos Modales",
         "description": null,
         "year": 2020,
-        "type": "Property Development",
-        "promoted": false
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "malos-modales-2",
+        "collaborator": null,
+        "services": null
     },
     {
         "id": 8,
@@ -69,8 +111,11 @@
         "title": "Shift",
         "description": null,
         "year": 2020,
-        "type": "Property Development",
-        "promoted": false
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "shift-2",
+        "collaborator": null,
+        "services": null
     },
     {
         "id": 9,
@@ -78,8 +123,11 @@
         "title": "Landwaste",
         "description": null,
         "year": 2020,
-        "type": "Property Development",
-        "promoted": false
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "landwaste",
+        "collaborator": null,
+        "services": null
     }
   ]
 }

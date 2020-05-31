@@ -6,33 +6,26 @@
       controls
     >
       <!-- Text slides with image -->
-        <b-carousel-slide 
+        <router-link 
+        :to="'/work/' + `${slide.url}`" 
         v-for="(slide, index) in carouselSlides()" 
-        :key="index"
-        :caption="slide.title"
-        :style="{ backgroundImage: 'url(' + require(`../../assets/${slide.image}`) + ')' }"
-        >
-        </b-carousel-slide>
-
-        <!-- <a href="" v-for="(slide, index) in data" :key="index">
-        <b-carousel-slide 
-        :caption="slide.title"
-        :style="{ backgroundImage: 'url(' + require(`../../assets/${slide.image}`) + ')' }"
-        >
-
-        </b-carousel-slide>
-        </a> -->
+        :key="index">
+            <b-carousel-slide 
+                :caption="slide.title"
+                :style="{ backgroundImage: 'url(' + require(`../../assets/${slide.image}`) + ')' }">
+            </b-carousel-slide>
+        </router-link>
     </b-carousel>
 </template>
 
 <script>
-    import carousel from "@/mock/projects"
+    import json from "@/mock/projects";
 
     export default {
         name: 'Carousel',
         data() {
             return {
-                data: carousel.slides
+                data: json.projects
             };
         },
         methods: {
@@ -40,7 +33,7 @@
                 return this.data.filter(n => {
                     return n.promoted
                 });
-            }
+            },
         }
     }
 </script>

@@ -18,7 +18,7 @@
 
       <b-row 
       v-for="(feature, index) in data.services.features" 
-      :key="index">
+      :key="feature.title + index">
         <b-col></b-col>
         <b-col col lg="4">
           <p>
@@ -39,7 +39,7 @@
 
       <b-row class="featured" 
       v-for="(feature, index) in data.features" 
-      :key="index">
+      :key="feature.title + index">
         <b-col col lg="4">
             <p>{{feature.title}}</p>
           </b-col>
@@ -47,65 +47,28 @@
             <ul>
               <li 
               v-for="(item, index) in feature.list" 
-              :key="index">{{item.title}}</li>
+              :key="item.title + index">{{item.title}}</li>
             </ul>
           </b-col>
           <b-col></b-col>
       </b-row>
-
-      <b-row class="footer">
-        <b-col col lg="4">
-          <p class="h1">{{data.contact.title}}</p>
-        </b-col>
-        <b-col col lg="6">
-          <ul>
-            <li><a class="h1" :href="`mailto:${data.contact.email}`">{{data.contact.email}}</a></li>
-            <li class="h1">{{data.contact.phone}}</li>
-          </ul>
-        </b-col>
-        <b-col></b-col>
-      </b-row>
-
-      <div class="row footer">
-        <b-col col lg="4">
-          <p class="h1">{{data.social.title}}</p>
-        </b-col>
-        <b-col col lg="4">
-          <ul>
-            <li 
-            v-for="(item, index) in data.social.list" 
-            :key="index">
-              <a 
-              class="h1" 
-              :href=item.href 
-              target="_blank">{{item.title}}</a>
-            </li>
-          </ul>
-        </b-col>
-        <b-col></b-col>
-      </div>
-
-      <b-row class="footer deep">
-        <b-col col lg="4">
-          <p>© {{data.cc}}</p>
-        </b-col>
-        <b-col col lg="4">
-          <p>{{data.state}},{{data.country}}<br>
-           {{data.street}} {{data.homenum}}<br>
-           {{data.recidence}}, {{data.zip}}</p>
-        </b-col>
-      </b-row>
+      
+      <Footer />
     </b-container>
   </section>
 </template>
 
 <script>
   import about from "@/mock/about";
+  import Footer from "@/components/footer/Footer";
 
   export default {
     name: 'About',
     props: {
       toggleAbout: Boolean
+    },
+    components: {
+        Footer
     },
     data() {
         return {

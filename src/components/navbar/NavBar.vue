@@ -9,12 +9,16 @@
                         </router-link> 
                     </b-col>
                     <b-col md="3" offset-md="3" class="links">
-                        <router-link  @click.native="closeAbout" to="/work">Work</router-link> 
-                        <div
+                        <!-- <router-link @click.native="closeAbout" to="/work">Work</router-link>  -->
+                        <router-link class="link" to="/work">Work</router-link> 
+
+                        <router-link class="link" to="/about">Information</router-link> 
+
+                        <!-- <div
                         :class="['link', {active: showAbout}]"
                         @click="showAbout = !showAbout">
                           Information
-                        </div>
+                        </div> -->
                         <!-- <div class="plus">
                             <div class="x"
                             :class="{active: showAbout}"
@@ -27,9 +31,9 @@
             </b-container> 
         </header>
         
-        <transition name="fade">
+        <!-- <transition name="fade">
             <About v-if="showAbout"/>
-        </transition>
+        </transition> -->
     </div>
 </template>
 

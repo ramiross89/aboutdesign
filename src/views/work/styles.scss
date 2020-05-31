@@ -2,6 +2,15 @@
     padding-top: rem(100);
 
     .label {
-        margin: rem(30) 0;
+        margin: rem(20) 0;
+        color: get-color(white);
+        transition: color .1s linear;
+    }
+    a:hover {
+        text-decoration: none;
+    
+        .label {
+            color: get-color(grey);
+        }
     }
 }

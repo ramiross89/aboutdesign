@@ -5,13 +5,15 @@
             v-for="(slide, index) in data" 
             :key="index"
             md="6">
-                <b-img
-                :src="require(`../../assets/${slide.image}`)"
-                :alt=slide.title
-                fluid></b-img>
-                <div class="label">
-                    {{slide.title}} / {{slide.type}} / {{slide.year}}
-                </div>
+                <router-link :to="'/work/' + `${slide.url}`">
+                    <b-img
+                    :src="require(`../../assets/${slide.image}`)"
+                    :alt=slide.title
+                    fluid></b-img>
+                    <div class="label">
+                        {{slide.title}} / {{slide.year}}
+                    </div>
+                </router-link> 
             </b-col>
         </b-row>
 
@@ -21,7 +23,7 @@
 
 <script>
     import carousel from "@/mock/projects";
-    import Footer from "@/components/footer/Footer"
+    import Footer from "@/components/footer/Footer";
 
     export default {
         name: "Work",
@@ -30,7 +32,7 @@
         },
         data() {
             return {
-                data: carousel.slides
+                data: carousel.projects
             };
         }
     }
