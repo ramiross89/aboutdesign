@@ -1,0 +1,35 @@
+.project {
+    padding: rem(120) 0 rem(50);
+
+    p, ul, h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    span {
+        display: block;
+        color: get-color(grey);
+    }
+
+    ul li {
+       display: inline; 
+    }
+
+    .showcase {
+        img {
+            margin-bottom: rem(30);
+        }
+    }
+
+    .featured-img {
+        margin: rem(60) 0;
+    }
+
+    .showcase {
+        margin-top: rem(120);
+    }
+
+    .description {
+        width: 60%;
+    }
+}

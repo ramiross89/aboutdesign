@@ -1,0 +1,39 @@
+footer {
+    margin: rem(100) 0 rem(40);
+
+    .deep {
+        margin-top: rem(45);
+
+        .col-lg-6:first-child p {
+            margin-top: rem(49);
+        }
+    }
+
+    .cc {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .location {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: rem(20) 0 rem(20) 0;
+
+        a {
+            color: get-color(white);
+            font-style: none;
+            text-decoration: underline;
+
+        &:hover {
+            opacity: 0.8;
+            color: get-color(white);
+            }
+        }
+    }
+}
+

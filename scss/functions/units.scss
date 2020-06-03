@@ -1,0 +1,29 @@
+//
+//	Functions / Units
+//
+
+/*
+ *	EM -> PX Conversion
+ *	--------------------------------------------------
+ *  DEPRECATED, please use `rem` instead.
+ */
+
+ @function em( $target, $context: 16) {
+    @return ( $target / $context ) * 1em;
+}
+
+/*
+ *	Unitless
+ *	--------------------------------------------------
+ */
+
+@function no-unit( $number ) {
+    @return $number / ( $number * 0 + 1 );
+}
+
+/**
+ * Converts pixel values to rem units.
+ */
+@function rem($px) {
+    @return ($px / 16) * 1rem;
+}

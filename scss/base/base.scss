@@ -1,0 +1,61 @@
+@import './variables';
+@import '../functions/color';
+
+html, 
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: -moz-scrollbars-none;
+}
+
+body {
+  color: get-color(white);
+  background-color: get-color(black);
+  position: relative;
+  line-height: 1.2;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: rem(20);
+  font-family: "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol","Noto Color Emoji";
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+.h1 {
+  font-weight: 400;
+}
+
+h1 {
+  margin-bottom: rem(70);
+}
+
+.container-fluid {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+body::-webkit-scrollbar, 
+html::-webkit-scrollbar { 
+  display: none;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .25s;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: get-color(black);
+  background: get-color(white);
+}
+
+::selection {
+  color: get-color(black);
+  background: get-color(white);
+}

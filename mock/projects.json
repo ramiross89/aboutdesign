@@ -1,0 +1,154 @@
+{
+  "projects": [
+    {
+        "id": 1,
+        "image": "CINCECORE_WEB.jpg",
+        "title": "Cine Core",
+        "description": "Creativity and innovation emerge from a 2020 deep understanding of your customers. Our solutions work because they accurately reflect the essence of the product and convey authentic emotions, which in turn generate appeal and loyalty to your brand.",
+        "year": 2020,
+        "type": "Property & Development",
+        "promoted": true,
+        "url": "cine-core",
+        "collaborator": "Illustrations by kitty ramos",
+        "services": [
+            {
+                "name": "Brand identity"
+            },
+            {
+                "name": "Brand Strategy"
+            }
+        ],
+        "showcase": {
+            "grid": true,
+            "items" : [
+                {
+                    "url": "https://i.picsum.photos/id/237/900/600.jpg",
+                    "type": "image",
+                    "full": false
+                },
+                {
+                    "url": "https://i.picsum.photos/id/137/900/600.jpg",
+                    "type": "image",
+                    "full": false
+                },
+                {
+                    "url": "https://i.picsum.photos/id/200/2000/800.jpg",
+                    "type": "image",
+                    "full": true
+                },
+                {
+                    "url": "https://i.picsum.photos/id/250/2000/800.jpg",
+                    "type": "image",
+                    "full": true
+                },
+                {
+                    "url": "https://i.picsum.photos/id/27/900/600.jpg",
+                    "type": "image",
+                    "full": false
+                },
+                {
+                    "url": "https://i.picsum.photos/id/27/900/600.jpg",
+                    "type": "image",
+                    "full": false
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "image": "ARADA_POSTER_WEB2.jpg",
+        "title": "Arada Projects",
+        "description": null,
+        "year": 2020,
+        "type": "Property & Development",
+        "promoted": true,
+        "url": "arada-projects",
+        "collaborator": null,
+        "services": null
+    },
+    {
+        "id": 3,
+        "image": "BYLSA-BOXES_WEB.jpg",
+        "title": "Bylsa",
+        "description": null,
+        "year": 2020,
+        "type": "Property & Development",
+        "promoted": true,
+        "url": "bylsa",
+        "collaborator": null,
+        "services": null
+    },
+    {
+        "id": 4,
+        "image": "ENKASA_PREVIEW.jpg",
+        "title": "Enkasa",
+        "description": null,
+        "year": 2020,
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "enkasa",
+        "collaborator": null,
+        "services": null
+    },
+    {
+        "id": 5,
+        "image": "MALOSMODALES_DOC1.jpg",
+        "title": "Malos Modales",
+        "description": null,
+        "year": 2020,
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "malos-modales",
+        "collaborator": null,
+        "services": null
+    },
+    {
+        "id": 6,
+        "image": "SHIFT_PREVIEW.jpg",
+        "title": "Shift",
+        "description": null,
+        "year": 2020,
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "shift",
+        "collaborator": null,
+        "services": null
+    },
+    {
+        "id": 7,
+        "image": "MALOSMODALES_DOC4.jpg",
+        "title": "Malos Modales",
+        "description": null,
+        "year": 2020,
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "malos-modales-2",
+        "collaborator": null,
+        "services": null
+    },
+    {
+        "id": 8,
+        "image": "Cafe.jpg",
+        "title": "Shift",
+        "description": null,
+        "year": 2020,
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "shift-2",
+        "collaborator": null,
+        "services": null
+    },
+    {
+        "id": 9,
+        "image": "TOTE_BAG.jpg",
+        "title": "Landwaste",
+        "description": null,
+        "year": 2020,
+        "type": "Property & Development",
+        "promoted": false,
+        "url": "landwaste",
+        "collaborator": null,
+        "services": null
+    }
+  ]
+}
